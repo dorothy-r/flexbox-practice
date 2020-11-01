@@ -97,38 +97,89 @@ textarea {
 
 
 html {
-  background-color: #DDC8C4;
+  background-color: #eddfef;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Merriweather', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
+header, footer {
+    height: 80px;
+    width: 100%;
+}
+
+h1 {
+    color: #464655;
+    font-family: 'Prata', serif;
+    font-size: 2em;
+}
+
+main {
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/andrew-schultz-eeyE0jmUW6o-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+main p {
+    color: #f3ebf4;
+    padding: 15px;
+}
+
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .wrapper {
   display:flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: 700;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
-  width: 31%;
+  width: 30%;
   display:flex;
   justify-content: center;
   align-items: center;
-  color: #EFF9F0;
+  color: #464655;
   line-height: 1.2em;
   font-size: 1em;
-  background-color: #6B4D57;
+  background-color: #d5cfe1;
   height: 300px;
   padding: 0 15px;
-  border: 2px solid #13070C;
+  border: 2px solid #94958b;
+  margin-top: 10px;
 }
 
+ul {
+    display: inline;
+    list-style-type: none;
+}
 
+li {
+    float: left;
+    display: block;
+    padding: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #464655;
+}
+
+li a:hover {
+    transform: scale(1.1);
+}
 
 
 /* ==========================================================================
